@@ -1,0 +1,18 @@
+# Sample configuration file for Sidekiq.
+# Options here can still be overridden by cmd line args.
+#   sidekiq -C config.yml
+---
+:sentinel:
+  :master_name: example-test
+  :sentinels:
+  - :host: localhost
+    :port: 26379
+  - :host: localhost
+    :port: 26380
+:verbose: true
+:pidfile: ./sidekiq.pid
+:concurrency:  5
+:queues:
+  - [often, 7]
+  - [default, 5]
+  - [seldom, 3]
