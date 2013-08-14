@@ -1,5 +1,6 @@
 # SidekiqSentinel
 
+[![Gem Version](https://badge.fury.io/rb/sidekiq_sentinel.png)](http://badge.fury.io/rb/sidekiq_sentinel)
 [![Build Status](https://travis-ci.org/giraffi/sidekiq_sentinel.png?branch=master)](https://travis-ci.org/giraffi/sidekiq_sentinel)
 
 The Sidekiq CLI will be used a Redis Sentinel cluster.
