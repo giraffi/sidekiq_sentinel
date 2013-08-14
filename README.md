@@ -1,5 +1,7 @@
 # SidekiqSentinel
 
+[![Build Status](https://travis-ci.org/giraffi/sidekiq_sentinel.png?branch=master)](https://travis-ci.org/giraffi/sidekiq_sentinel)
+
 The Sidekiq CLI will be used a Redis Sentinel cluster.
 
 When Sidekiq.config has a key which named `sentinel`,  the sidekiq client will use redis sentinel cluster as backend.
